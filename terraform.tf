@@ -1,10 +1,4 @@
 terraform {
-  cloud {
-    organization = "sairanjitha"
-    workspaces {
-      name = "demo-terraform-cloud-gcp"
-    }
-  }
   required_providers {
     google = {
       source = "hashicorp/google"
